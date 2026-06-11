@@ -6,7 +6,7 @@ import hashlib
 
 # Konfigurasi Halaman Streamlit (Harus di paling atas)
 st.set_page_config(page_title="Buku Kas & Stok UMKM", page_icon="📊", layout="wide")
-st.html('<meta name="google-site-verification" content="9pBgzUWsE_OpR9kBU9EBDHQsIMGUaIsm6GjYxNGscFk" />')
+st.markdown('<meta name="google-site-verification" content="9pBgzUWsE_OpR9kBU9EBDHQsIMGUaIsm6GjYxNGscFk" />', unsafe_allow_html=True)
 
 # ============================================================
 # 🗄️ DATABASE LAYER (SQLite)
